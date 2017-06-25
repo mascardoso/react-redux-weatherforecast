@@ -6,11 +6,8 @@
   "repository": "https://github.com/mascardoso/react-redux-weatherforecast.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
-    "build": "rm -rf ./build && webpack -p && cp index.html ./build && mkdir ./build/style && cp style/style.css ./build/style",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "rm -rf ./build && webpack -p && cp index.html ./build && mkdir ./build/style && cp style/style.css ./build/style"
   },
-  "homepage": "https://mascardoso.github.io/react-redux-weatherforecast",
   "author": "",
   "license": "ISC",
   "devDependencies": {

@@ -2,7 +2,7 @@
 A simple React Application with Redux that fetches weather forecast from a city
 
 ### Demo
-https://mascardoso.github.io/react-redux-weatherforecast/
+The openweatherforecast free version runs only through `http` so you really need to clone the project and test it in your local machine. 
 
 ### For Development
 Checkout this repo and install dependencies:
